@@ -1,5 +1,5 @@
 import React from 'react';
-import 'file:///C:/Users/DHARANI%20DHARAN/OneDrive/Documents/GitHub/nody/src/Hero.css';
+import '../css/Hero.css';
 
 const Hero = () => {
   return (
