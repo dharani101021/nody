@@ -1,0 +1,135 @@
+/* Services.css */
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.services-header {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.services-header h2 {
+  font-size: 36px;
+  margin-bottom: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.services-header p {
+  font-size: 16px;
+  color: #666;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+.services-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+}
+
+.service-card {
+  background-color: #fff;
+  border-radius: 8px;
+  padding: 40px 30px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.service-card:hover, .service-card.active {
+  background-color: #4763e0;
+  color: white;
+}
+
+.service-icon {
+  background-color: rgba(230, 230, 230, 0.2);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.service-card:hover .service-icon, .service-card.active .service-icon {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.service-card h3 {
+  font-size: 20px;
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+
+.service-card p {
+  font-size: 14px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 24px;
+}
+
+.service-card:hover p, .service-card.active p {
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.service-more {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  font-weight: 500;
+}
+
+.arrow {
+  margin-left: 4px;
+}
+
+.service-card:hover .arrow, .service-card.active .arrow {
+  /* No animation effect */
+}
+
+/* Default color for icons */
+.service-card svg {
+  color: #4763e0;
+}
+
+/* Icon color on hover or active state */
+.service-card:hover svg, .service-card.active svg {
+  color: white;
+}
+
+/* Default first card is blue */
+.service-card.active {
+  background-color: #4763e0;
+  color: white;
+}
+
+/* Responsive adjustments */
+@media (max-width: 992px) {
+  .services-cards {
+    gap: 20px;
+  }
+  
+  .service-card {
+    width: calc(50% - 20px);
+  }
+}
+
+@media (max-width: 768px) {
+  .service-card {
+    width: 100%;
+  }
+}
