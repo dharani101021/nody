@@ -13,28 +13,28 @@ const Testimonial = () => {
       quote: "Et harum quidem rerum facilis expedita distinctio nam libero tempore soluta nobis optio cumque.",
       name: "Bobby Kelly",
       position: "Graphic Designer, USA",
-      avatar: "/src/assets/client1.jpg"
+      avatar: "/assets/client1.jpg"
     },
     {
       id: 2,
       quote: "Et harum quidem rerum facilis expedita distinctio nam libero tempore soluta nobis optio cumque.",
       name: "Joshua Vargas",
       position: "Web Developer, USA",
-      avatar: "/src/assets/client2.jpg"
+      avatar: "/assets/client2.jpg"
     },
     {
       id: 3,
       quote: "Et harum quidem rerum facilis expedita distinctio nam libero tempore soluta nobis optio cumque.",
       name: "Sammie Lewis",
       position: "UI/UX Designer, USA",
-      avatar: "/src/assets/client3.jpg"
+      avatar: "/assets/client3.jpg"
     },
     {
       id: 4,
       quote: "Et harum quidem rerum facilis expedita distinctio nam libero tempore soluta nobis optio cumque.",
       name: "Sarah Levine",
       position: "PHP Developer, USA",
-      avatar: "/src/assets/client4.jpg"
+      avatar: "/assets/client4.jpg"
     }
   ];
 
