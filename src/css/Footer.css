@@ -2,7 +2,7 @@
 
 .footer {
   background-color: #292d32; /* dark background */
-  background-image: url('src/assets/background.jpg'); /* background image */
+  background-image: url('/assets/background.jpg'); /* background image */
   background-size: cover; /* make the image cover the whole area */
   background-repeat: no-repeat; /* prevent image repetition */
   background-position: center; /* center the image */
