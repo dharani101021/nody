@@ -46,7 +46,7 @@ const Testimonial = () => {
       description: "At vero eos et accusamus et iusto dignissimos.",
       date: "07 Jan 2020",
       timeAgo: "15 min ago",
-      image: "/src/assets/newsimg2.jpg"
+      image: "/assets/newsimg2.jpg"
     },
     {
       id: 2,
@@ -54,7 +54,7 @@ const Testimonial = () => {
       description: "At vero eos et accusamus et iusto dignissimos.",
       date: "07 Jan 2020",
       timeAgo: "20 min ago",
-      image: "/src/assets/newsimg3.jpg"
+      image: "/assets/newsimg3.jpg"
     },
     {
       id: 3,
@@ -62,7 +62,7 @@ const Testimonial = () => {
       description: "At vero eos et accusamus et iusto dignissimos.",
       date: "07 Jan 2020",
       timeAgo: "30 min ago",
-      image: "/src/assets/newsimg4.jpg"
+      image: "/assets/newsimg4.jpg"
     }
   ];
 
@@ -182,7 +182,7 @@ const Testimonial = () => {
           <div className="news-content">
             <div className="news-featured">
               <img 
-                src="/src/assets/newsimg1.jpg" 
+                src="/assets/newsimg1.jpg" 
                 alt="Featured office workspace" 
                 className="featured-image"
               />

@@ -13,12 +13,12 @@ const ContactPage = () => {
       <div className="contact-content">
         <div className="contact-image-section">
           <div className="illustration-container">
-            <img src="/src/assets/contactimg.png" alt="Customer support illustration" />
+            <img src="/assets/contactimg.png" alt="Customer support illustration" />
           </div>
           <h2>Are You Facing Any Problem..?</h2>
           <p>It va esser tam simplic quam Occidental in fact it va esser Occidental angles quam un skeptic cambridge es.</p>
           <button className="chat-button">
-            <span className="chat-icon">💬</span>
+            <span className="chat-icon"><MessageCircle /></span>
             Start Live Chat
           </button>
           <p className="contact-alternative">Or you can contact at</p>
