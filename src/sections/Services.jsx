@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '../css/services.css'; // Import the CSS file for styling
+import '../css/Services.css'; // Import the CSS file for styling
 
 // Import SVG components
 import { Headphones, Shield, Lock } from 'lucide-react';
