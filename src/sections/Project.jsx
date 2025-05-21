@@ -7,37 +7,37 @@ export default function Project() {
       id: 1,
       title: "Professional Designer",
       subtitle: "UI/UX Designer",
-      imagePath: "../assets/projectimg1.jpg"
+      imagePath: "/assets/projectimg1.jpg"
     },
     {
       id: 2,
       title: "Product Designer",
       subtitle: "Web Designer",
-      imagePath: "/src/assets/projectimg2.jpg"
+      imagePath: "/assets/projectimg2.jpg"
     },
     {
       id: 3,
       title: "Design Development",
       subtitle: "PHP Developer",
-      imagePath: "/src/assets/projectimg3.jpg"
+      imagePath: "/assets/projectimg3.jpg"
     },
     {
       id: 4,
       title: "Product Designer",
       subtitle: "React Developer",
-      imagePath: "/src/assets/projectimg5.jpg"
+      imagePath: "/assets/projectimg5.jpg"
     },
     {
       id: 5,
       title: "Design Development",
       subtitle: "UI/UX Designer",
-      imagePath: "/src/assets/projectimg4.jpg"
+      imagePath: "/assets/projectimg4.jpg"
     },
     {
       id: 6,
       title: "Graphic Development",
       subtitle: "Web Designer",
-      imagePath: "/src/assets/projectimg6.jpg"
+      imagePath: "/assets/projectimg6.jpg"
     }
   ];
 

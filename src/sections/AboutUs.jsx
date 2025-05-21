@@ -1,7 +1,7 @@
 import React from 'react';
 import '../css/AboutUs.css';
-import productDevelopmentImg from '../assets/img-1.png';
-import marketingProductImg from '../assets/img-2.png';
+import productDevelopmentImg from '/assets/img-1.png';
+import marketingProductImg from '/assets/img-2.png';
 
 export default function AboutUs() {
   return (

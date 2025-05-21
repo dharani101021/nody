@@ -11,19 +11,19 @@ export default function Features() {
       id: 1,
       title: "Works With Existing Apps",
       description: "At solmen necessi a uniform grammatica pronuncition sommun plu paroles ma quande.",
-      image: "src/assets/image1.png"
+      image: "/assets/image1.png"
     },
     {
       id: 2,
       title: "Easy Email Marketing",
       description: "At solmen necessi a uniform grammatica pronuncition sommun plu paroles ma quande.",
-      image: "src/assets/image2.png"
+      image: "/assets/image2.png"
     },
     {
       id: 3,
       title: "Get Private Customers Feedback",
       description: "At solmen necessi a uniform grammatica pronuncition sommun plu paroles ma quande.",
-      image: "src/assets/image3.png"
+      image: "/assets/image3.png"
     },
   ];
   
