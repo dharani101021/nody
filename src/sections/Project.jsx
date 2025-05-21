@@ -7,7 +7,7 @@ export default function Project() {
       id: 1,
       title: "Professional Designer",
       subtitle: "UI/UX Designer",
-      imagePath: "/src/assets/projectimg1.jpg"
+      imagePath: "../assets/projectimg1.jpg"
     },
     {
       id: 2,
