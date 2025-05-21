@@ -1,11 +1,16 @@
 /* Footer.css */
 
 .footer {
-  background-color: #111827; /* dark background */
-  color: #d1d5db; /* light gray text */
+  background-color: #292d32; /* dark background */
+  background-image: url('src/assets/background.jpg'); /* background image */
+  background-size: cover; /* make the image cover the whole area */
+  background-repeat: no-repeat; /* prevent image repetition */
+  background-position: center; /* center the image */
+  color: #d1d5db;
   padding: 60px 20px 30px;
   font-family: 'Inter', sans-serif;
 }
+
 
 .footer-container {
   max-width: 1200px;

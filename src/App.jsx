@@ -7,7 +7,7 @@ import AboutUs from './sections/AboutUs';
 import Services from './sections/Services';
 import Project from './sections/Project';
 import Features from './sections/Features';
-import Clients from './sections/Clients';
+import Clients from './sections/Testimonial';
 import Contact from './sections/Contact';
 
 function App() {
@@ -27,12 +27,12 @@ function App() {
       
       {/* Services Section */}
       <section id="services" className="section">
-       <Services/>
+        <Services/>
       </section>
       
       {/* Features Section */}
       <section id="features" className="section">
-       <Features/>  
+        <Features/>  
       </section>
       
       {/* Project Section */}
